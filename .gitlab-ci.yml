@@ -1,0 +1,7 @@
+variables:
+  GRADLE_VERSION: 8.6.0-jdk17-alpine
+
+include:
+  - project: 'mypvpme/ci-templates'
+    ref: master
+    file: 'default-java-lib-ci.yml'
