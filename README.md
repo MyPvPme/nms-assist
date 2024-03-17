@@ -1,7 +1,7 @@
 # nms-assist
 
 Just a little helper library to work with NMS.  
-So far, only tools for packages are included, which may or may not be expanded in the future.
+So far, only tools for easily working with packets are included, which may or may not be expanded in the future.
 
 If you see this on GitHub, this is a mirror of the original repo located at:  
 https://gitlab.com/mypvpme/nms-assist
