@@ -31,8 +31,8 @@ implementation("me.mypvp:nms-assist:0.1.0")
 ```xml
 <dependency>
   <groupId>me.mypvp</groupId>
-  <artifactId>ProtocolWrapper</artifactId>
-  <version>0.0.9</version>
+  <artifactId>nms-assist</artifactId>
+  <version>0.1.0</version>
 </dependency>
 ```
 
