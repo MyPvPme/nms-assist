@@ -1,4 +1,5 @@
-# nms-assist
+# nms-assist ![Gitlab Pipeline Status](https://img.shields.io/gitlab/pipeline-status/mypvpme%2Fnms-assist?branch=master&link=https%3A%2F%2Fgitlab.com%2Fmypvpme%2Fnms-assist%2F-%2Fpipelines)
+
 
 Just a little helper library to work with NMS.  
 So far, only tools for easily working with packets are included, which may or may not be expanded in the future.
