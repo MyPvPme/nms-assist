@@ -19,16 +19,16 @@ public class InterceptorContext<T extends Packet<?>> {
     this.packet = packet;
   }
 
-  public @NotNull Player getPlayer() {
+  public @NotNull T packet() {
+    return packet;
+  }
+
+  public @NotNull Player player() {
     return player;
   }
 
-  public @NotNull ChannelHandlerContext getNettyContext() {
+  public @NotNull ChannelHandlerContext nettyContext() {
     return nettyContext;
-  }
-
-  public @NotNull T packet() {
-    return packet;
   }
 
   public @NotNull PacketAccessor<T> accessor() {
@@ -45,6 +45,16 @@ public class InterceptorContext<T extends Packet<?>> {
 
   public boolean rejected() {
     return this.reject;
+  }
+
+  @Deprecated
+  public @NotNull Player getPlayer() {
+    return player;
+  }
+
+  @Deprecated
+  public @NotNull ChannelHandlerContext getNettyContext() {
+    return nettyContext;
   }
 
 }
