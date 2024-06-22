@@ -10,6 +10,9 @@ https://gitlab.com/mypvpme/nms-assist
 ## Use
 If you would like to use this, you are welcome to do so, you can get a current version from our Maven repository
 
+- `0.1.0` for Minecraft 1.20.4  
+- `0.2.0` for Minecraft 1.21
+
 #### Gradle
 ```groovy
 repositories {
@@ -17,7 +20,7 @@ repositories {
 }
 ```
 ```groovy
-implementation("me.mypvp:nms-assist:0.1.0")
+implementation("me.mypvp:nms-assist:0.2.0")
 ```
 
 #### Maven
@@ -33,7 +36,7 @@ implementation("me.mypvp:nms-assist:0.1.0")
 <dependency>
   <groupId>me.mypvp</groupId>
   <artifactId>nms-assist</artifactId>
-  <version>0.1.0</version>
+  <version>0.2.0</version>
 </dependency>
 ```
 

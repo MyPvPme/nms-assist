@@ -1,7 +1,7 @@
 plugins {
     `java-library`
     `maven-publish`
-    id("io.papermc.paperweight.userdev") version "1.5.11"
+    id("io.papermc.paperweight.userdev") version "1.7.1"
 }
 
 group = "me.mypvp"
@@ -10,11 +10,11 @@ description = "NMS Assist for easily working with nms classes"
 if (project.hasProperty("projVersion") && project.property("projVersion").toString().isNotEmpty()) {
     project.version = project.property("projVersion").toString()
 } else {
-    project.version = "1.0.0-SNAPSHOT"
+    project.version = "0.2.0-SNAPSHOT"
 }
 
 java {
-    toolchain.languageVersion.set(JavaLanguageVersion.of(17))
+    toolchain.languageVersion.set(JavaLanguageVersion.of(21))
 }
 
 repositories {
@@ -22,7 +22,7 @@ repositories {
 }
 
 dependencies {
-    paperweight.paperDevBundle("1.20.4-R0.1-SNAPSHOT")
+    paperweight.paperDevBundle("1.21-R0.1-SNAPSHOT")
     implementation("org.objenesis:objenesis:3.3")
 }
 
@@ -60,7 +60,7 @@ tasks {
 
     compileJava {
         options.encoding = Charsets.UTF_8.name()
-        options.release.set(17)
+        options.release.set(21)
     }
 
     javadoc {
