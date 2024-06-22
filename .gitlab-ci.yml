@@ -1,5 +1,5 @@
 variables:
-  GRADLE_VERSION: 8.6.0-jdk17-alpine
+  GRADLE_VERSION: 8.6.0-jdk21-alpine
 
 include:
   - project: 'mypvpme/ci-templates'
